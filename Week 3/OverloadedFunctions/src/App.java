@@ -52,6 +52,14 @@ public class App {
 
          speed = velocity(distance, time);
          System.out.printf("Velocity over %.2f miles in %.2f hours is %.2f\n", distance, time, speed);
+         /*format specifiers
+          * 
+          %f -- float or double
+          %d -- use for digits (integers)
+          %s -- use for strings
+          %20s -- 20 character wide string
+          %-10.2f-- left align numbers
+          */
 
          double f = force(250, 100);
          f = force(250, speed);
