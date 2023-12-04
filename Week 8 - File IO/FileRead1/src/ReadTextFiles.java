@@ -84,7 +84,7 @@ public class ReadTextFiles {
     }
 
     public static void main(String[] args) throws Exception {
-        // readPoetry();
+        readPoetry();
         stats();
     }
 }

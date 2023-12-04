@@ -165,7 +165,7 @@ public class ForLecture {
         }
     }
     
-    public static void monteCarlo(){
+    /*public static void monteCarlo(){
         int atBats = 600;
         int walks = 0;
         int hits = 0;
@@ -191,7 +191,7 @@ public class ForLecture {
         walks = totWalk/tries;
         avg = totAvg / tries;
         System.out.printf("Hits %d Walks %d Avg %.3f\n", hits, walks, avg);
-    } 
+    } */
     public static void main(String[] args) throws Exception {
        // menu();
        monteCarlo();
