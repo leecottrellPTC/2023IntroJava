@@ -42,7 +42,7 @@ public class App {
     public static void main(String[] args) throws Exception {
         String openFile="yes";
         
-        while(openFile.startsWith("ye")){
+        while(openFile.endsWith("yes")){
             readFile();
             System.out.println("Do you want to open a file? <yes/no>");
             openFile = keyboard.nextLine();

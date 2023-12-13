@@ -22,6 +22,7 @@ public class App {
                     Integer.parseInt(columns[2]));
                 //System.out.println(line);
                //System.out.println(recordList[count].toString());
+               count++;
                 
             }//end of while
             fileIn.close();//close the scanner
